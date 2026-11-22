@@ -1,0 +1,37 @@
+{
+  "id": "frpg1e-healer",
+  "title": "Healer (The Dragon #3) for 1e FRPG",
+  "description": "An optional healer class for 1e FRPG, based on C. Hettlestad's \"Healers\" (The Dragon #3, October 1976): its levels, titles, hit dice, spells per day and own seven-level spell list, the powers gained at 4th, 8th, 12th, 16th and 20th level, and race limits. Rules restated in plain words. Adds a Healer tab and compendia. Turn it on or off in Manage Modules.",
+  "version": "0.2.0",
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14"
+  },
+  "authors": [
+    {
+      "name": "Jeremy Clifford"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "frpg1e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "0.36.0"
+        },
+        "manifest": "https://github.com/gmjeremynow/frpg1e/releases/latest/download/system.json"
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/healer.mjs"
+  ],
+  "styles": [
+    "styles/healer.css"
+  ],
+  "library": false,
+  "url": "https://github.com/gmjeremynow/frpg1e-healer",
+  "manifest": "https://github.com/gmjeremynow/frpg1e-healer/releases/latest/download/module.json",
+  "download": "https://github.com/gmjeremynow/frpg1e-healer/releases/download/v0.2.0/frpg1e-healer.zip"
+}

@@ -1,0 +1,1187 @@
+[
+ {
+  "name": "Detect Magic",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "healer",
+   "level": 1,
+   "school": "Divination",
+   "reversible": false,
+   "components": "V, S",
+   "range": "0",
+   "castingTime": "1 segment",
+   "duration": "2 rounds/level",
+   "save": "None",
+   "aoe": "1” path, 6” long",
+   "description": "<p><em>Healer spell: “same as magic-user spell of same name.”</em></p><p>The same as the first level cleric spell detect magic, except for the differences given in the spell’s statistics (duration, area of effect, and no material component).</p>",
+   "source": "Healers (magic-user spell, PHB)",
+   "rolls": []
+  },
+  "folder": "Level 1"
+ },
+ {
+  "name": "Detect Evil",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "healer",
+   "level": 1,
+   "school": "Divination",
+   "reversible": true,
+   "components": "V, S",
+   "range": "6”",
+   "castingTime": "2 segments",
+   "duration": "5 rounds/level",
+   "save": "None",
+   "aoe": "7” path",
+   "description": "<p><em>Healer spell: “same as magic-user spell of same name.”</em></p><p>Apart from the differences given in the spell’s statistics, this is the same as the first level cleric spell detect evil (q.v.).</p>",
+   "source": "Healers (magic-user spell, PHB)",
+   "rolls": []
+  },
+  "folder": "Level 1"
+ },
+ {
+  "name": "Detect Poison",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "healer",
+   "level": 1,
+   "school": "",
+   "reversible": false,
+   "components": "",
+   "range": "",
+   "castingTime": "",
+   "duration": "",
+   "save": "",
+   "aoe": "30' radius",
+   "description": "<p>The caster can determine whether poison is present or is being used within a 30' radius, and where. It also tells what type of poison.</p><p><em>The article gives only this description; the range, duration and other statistics not stated are for the DM.</em></p>",
+   "source": "Healers",
+   "rolls": []
+  },
+  "folder": "Level 1"
+ },
+ {
+  "name": "Detect Disease",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "healer",
+   "level": 1,
+   "school": "",
+   "reversible": false,
+   "components": "",
+   "range": "30”",
+   "castingTime": "",
+   "duration": "",
+   "save": "",
+   "aoe": "",
+   "description": "<p>Tells the caster what disease (if any) is present within a 30” range.</p><p><em>The Dragon #3: “within 30 range”, with no unit.</em></p><p><em>The article gives only this description; the range, duration and other statistics not stated are for the DM.</em></p>",
+   "source": "Healers",
+   "rolls": []
+  },
+  "folder": "Level 1"
+ },
+ {
+  "name": "Detect Invisibility",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "healer",
+   "level": 1,
+   "school": "Divination",
+   "reversible": false,
+   "components": "V, S, M",
+   "range": "1“/level",
+   "castingTime": "2 segments",
+   "duration": "5 rounds/level",
+   "save": "None",
+   "aoe": "1” path",
+   "description": "<p><em>Healer spell: “same as magic-user spell of same name.”</em></p><p>The caster clearly sees invisible objects, and astral, ethereal, hidden, invisible or out of phase creatures, in his or her line of sight along a 1” wide path out to the limit of range.</p><p><strong>Components:</strong> a pinch of talc and a small sprinkling of powdered silver.</p>",
+   "source": "Healers (magic-user spell, PHB)",
+   "rolls": []
+  },
+  "folder": "Level 1"
+ },
+ {
+  "name": "Detect Phase",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "healer",
+   "level": 1,
+   "school": "",
+   "reversible": false,
+   "components": "",
+   "range": "",
+   "castingTime": "",
+   "duration": "6 turns",
+   "save": "",
+   "aoe": "",
+   "description": "<p>Finds secreted treasure hidden by out-of-phase equipment (spells), and creatures that are out of phase.</p><p><em>The article gives only this description; the range, duration and other statistics not stated are for the DM.</em></p>",
+   "source": "Healers",
+   "rolls": []
+  },
+  "folder": "Level 1"
+ },
+ {
+  "name": "Neutralize Poison",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "healer",
+   "level": 2,
+   "school": "Alteration",
+   "reversible": true,
+   "components": "V, S",
+   "range": "Touch",
+   "castingTime": "7 segments",
+   "duration": "Permanent",
+   "save": "None",
+   "aoe": "Creature touched or 1 cubic foot of substance/2 levels",
+   "description": "<p><em>Healer spell: “same as cleric spell of same name.”</em></p><p>The cleric detoxifies any venom in the creature or substance touched. Touching an unwilling opponent, such as a poisonous reptile or snake (or an opponent’s envenomed weapon), needs a hit in melee. The cure is permanent only for poison already present at the moment of the touch; creatures or objects that make new poison are not permanently detoxified.</p><p><strong>Reverse (poison):</strong> also needs a successful “to hit” touch. The victim gets a saving throw versus poison, and dies if it fails.</p>",
+   "source": "Healers (cleric spell, PHB)",
+   "rolls": []
+  },
+  "folder": "Level 2"
+ },
+ {
+  "name": "Cure Disease",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "healer",
+   "level": 2,
+   "school": "Abjuration",
+   "reversible": true,
+   "components": "V, S",
+   "range": "Touch",
+   "castingTime": "1 turn",
+   "duration": "Permanent",
+   "save": "None",
+   "aoe": "Creature touched",
+   "description": "<p><em>Healer spell: “same as cleric spell of same name.”</em></p><p>By laying a hand on a diseased creature, the cleric cures most diseases, including parasitic, bacterial and viral ones. The affliction quickly fades, and the creature is whole and well within 1 turn to 1 week, depending on the disease and how far it had advanced.</p><p><strong>Reverse (cause disease):</strong> the cleric must touch the victim, and the victim must fail a saving throw. The disease takes hold in 1-6 turns. The victim then loses 1 hit point per turn and 1 point of strength per hour, until down to 10% of original hit points and strength, at which point it is weak and virtually helpless.</p>",
+   "source": "Healers (cleric spell, PHB)",
+   "rolls": [
+    {
+     "label": "Reverse (cause disease): onset in turns",
+     "kind": "dur",
+     "formula": "1d6",
+     "save": "",
+     "each": "",
+     "fn": "",
+     "charges": 0,
+     "note": "",
+     "mode": "",
+     "x": "",
+     "choices": [],
+     "table": {
+      "formula": "",
+      "rows": []
+     }
+    }
+   ]
+  },
+  "folder": "Level 2"
+ },
+ {
+  "name": "Purify Food & Drink",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "healer",
+   "level": 2,
+   "school": "Alteration",
+   "reversible": true,
+   "components": "V, S",
+   "range": "3”",
+   "castingTime": "1 round",
+   "duration": "Permanent",
+   "save": "None",
+   "aoe": "1 cubic foot/level, 1” square area",
+   "description": "<p><em>Healer spell: “same as cleric spell of same name.”</em></p><p>Makes spoiled, rotten, poisonous or otherwise contaminated food and/or water pure and fit to eat or drink. Up to 1 cubic foot of food and/or drink is affected.</p><p><strong>Reverse:</strong> putrefies food and drink, and even spoils holy water. Unholy water is spoiled by the normal (purify) version.</p>",
+   "source": "Healers (cleric spell, PHB)",
+   "rolls": []
+  },
+  "folder": "Level 2"
+ },
+ {
+  "name": "Slow",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "healer",
+   "level": 2,
+   "school": "Alteration",
+   "reversible": false,
+   "components": "V, S, M",
+   "range": "9” + 1”/level",
+   "castingTime": "3 segments",
+   "duration": "3 rounds + 1 round/level",
+   "save": "None",
+   "aoe": "4” × 4” area, 1 creature/level",
+   "description": "<p><em>Healer spell: “same as magic-user spell of same name.”</em></p><p>Affected creatures move and attack at one-half their normal or current rate. It negates haste (q.v.), stacks if cast on creatures already slowed, and otherwise affects magically speeded or slowed creatures. It affects one creature per level of the caster, all within the 4” × 4” area centred where the caster directs.</p><p><strong>Component:</strong> a drop of treacle.</p>",
+   "source": "Healers (magic-user spell, PHB)",
+   "rolls": []
+  },
+  "folder": "Level 2"
+ },
+ {
+  "name": "Haste",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "healer",
+   "level": 2,
+   "school": "Alteration",
+   "reversible": false,
+   "components": "V, S, M",
+   "range": "6”",
+   "castingTime": "3 segments",
+   "duration": "3 rounds + 1 round/level",
+   "save": "None",
+   "aoe": "4” × 4” area, 1 creature/level",
+   "description": "<p><em>Healer spell: “same as magic-user spell of same name.”</em></p><p>Affected creatures move and attack at double their normal rate: a creature moving 6” and attacking 1 time per round moves 12” and attacks 2 times per round. Spell casting is not faster. The caster can affect one creature per level, those closest to the caster first, all within the area of effect. Haste negates a slow spell (see hereafter). Because it speeds up the body’s processes, it also ages the recipients.</p><p><strong>Component:</strong> a shaving of licorice root.</p>",
+   "source": "Healers (magic-user spell, PHB)",
+   "rolls": []
+  },
+  "folder": "Level 2"
+ },
+ {
+  "name": "Invisibility",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "healer",
+   "level": 2,
+   "school": "Illusion/Phantasm",
+   "reversible": false,
+   "components": "V, S, M",
+   "range": "Touch",
+   "castingTime": "2 segments",
+   "duration": "Special",
+   "save": "None",
+   "aoe": "Creature touched",
+   "description": "<p><em>Healer spell: “same as magic-user spell of same name.”</em></p><p>The recipient vanishes from sight, undetectable by normal vision or even infravision. It is not silenced, so its normal noises can still be heard. Even its allies cannot see it or its gear unless they can normally see invisible things or use magic to do so.</p><p>The spell lasts until magically broken or dispelled, until the recipient (or caster) cancels it, or until the recipient attacks any creature. The recipient can open doors, talk, eat, climb stairs, etc., but making any form of attack ends the invisibility at once, although that first attack still benefits from it.</p><p>All highly intelligent creatures with 10 or more hit dice or levels of experience, or the equivalent in intelligence/dice/levels, have a chance to automatically detect invisible objects.</p><p><strong>Components:</strong> an eyelash encased in a bit of gum arabic.</p>",
+   "source": "Healers (magic-user spell, PHB)",
+   "rolls": []
+  },
+  "folder": "Level 2"
+ },
+ {
+  "name": "Speak With Dead",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "healer",
+   "level": 3,
+   "school": "Necromantic",
+   "reversible": false,
+   "components": "V, S, M",
+   "range": "1",
+   "castingTime": "1 turn",
+   "duration": "Special",
+   "save": "None",
+   "aoe": "One creature",
+   "description": "<p><em>Healer spell: “same as cleric spell of same name.”</em></p><p>The cleric can ask a dead creature several questions within a set time and receive answers based on what the creature knew. The cleric must be able to speak the language the creature used in life. How long the creature has been dead matters, since only higher level clerics can talk with the long dead. The number of questions and the time allowed for asking them also depend on the cleric’s level (see the table).</p><p><strong>Components:</strong> a holy symbol and burning incense, used on the body, the remains, or part of them.</p><table class=\"book-table\"><tr><th></th><th>Maximum</th><th></th><th></th></tr><tr><th>Level of</th><th>Length of Time</th><th>Time</th><th>Number of</th></tr><tr><td>Experience</td><td>Dead</td><td>Questioned</td><td>Questions</td></tr><tr><td>up to 7th</td><td>1 week</td><td>1 round</td><td>2</td></tr><tr><td>7th-8th</td><td>1 month</td><td>3 rounds</td><td>3</td></tr><tr><td>9th-12th</td><td>1 year</td><td>1 turn</td><td>4</td></tr><tr><td>13th-15th</td><td>10 years</td><td>2 turns</td><td>5</td></tr><tr><td>16th-20th</td><td>100 years</td><td>3 turns</td><td>6</td></tr><tr><td>21st and up</td><td>1,000 years</td><td>6 turns</td><td>7</td></tr></table>",
+   "source": "Healers (cleric spell, PHB)",
+   "rolls": []
+  },
+  "folder": "Level 3"
+ },
+ {
+  "name": "Cure Serious Wounds",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "healer",
+   "level": 3,
+   "school": "Necromantic",
+   "reversible": true,
+   "components": "V, S",
+   "range": "Touch",
+   "castingTime": "7 segments",
+   "duration": "Permanent",
+   "save": "None",
+   "aoe": "Creature touched",
+   "description": "<p><em>Healer spell: “same as cleric spell of same name.”</em></p><p>A stronger form of cure light wounds (q.v.). By laying a hand on a creature, the cleric heals 3 to 17 (2d8 + 1) hit points of wounds or other injury. It only works on the creatures that cure light wounds can affect.</p><p><strong>Reverse (cause serious wounds):</strong> works like cause light wounds: the victim must be touched first, and a successful touch inflicts 3 to 17 hit points of damage.</p>",
+   "source": "Healers (cleric spell, PHB)",
+   "heal": "2d8+1",
+   "healMode": "",
+   "rolls": []
+  },
+  "folder": "Level 3"
+ },
+ {
+  "name": "Cure Blindness",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "healer",
+   "level": 3,
+   "school": "Abjuration",
+   "reversible": true,
+   "components": "V, S",
+   "range": "Touch",
+   "castingTime": "1 round",
+   "duration": "Permanent",
+   "save": "None",
+   "aoe": "Creature touched",
+   "description": "<p><em>Healer spell: “same as cleric spell of same name.”</em></p><p>By touching the afflicted creature, the cleric permanently cures most forms of blindness.</p><p><strong>Reverse (cause blindness):</strong> needs a successful touch on the victim, and is negated if the victim makes a saving throw.</p>",
+   "source": "Healers (cleric spell, PHB)",
+   "rolls": []
+  },
+  "folder": "Level 3"
+ },
+ {
+  "name": "ESP",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "healer",
+   "level": 3,
+   "school": "Divination",
+   "reversible": false,
+   "components": "V, S, M",
+   "range": "½“/level, 9” maximum",
+   "castingTime": "2 segments",
+   "duration": "1 round/level",
+   "save": "None",
+   "aoe": "One creature per probe",
+   "description": "<p><em>Healer spell: “same as magic-user spell of same name.”</em></p><p>The caster can detect the surface thoughts of creatures in range, except creatures with no mind (as we know it), such as all undead. ESP is blocked by 2 or more feet of rock, 2 or more inches of any metal other than lead, or a thin sheet of lead foil.</p><p>The caster can probe the surface thoughts of 1 creature per turn, getting only simple instinctive thoughts from lower order creatures, and can keep probing the same creature from round to round. It can help find out whether something lurks behind a door, for example, but will not always reveal what kind of creature it is.</p><p><strong>Component:</strong> a copper piece.</p>",
+   "source": "Healers (magic-user spell, PHB)",
+   "rolls": []
+  },
+  "folder": "Level 3"
+ },
+ {
+  "name": "Animate Dead",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "healer",
+   "level": 3,
+   "school": "Necromantic",
+   "reversible": false,
+   "components": "V, S, M",
+   "range": "1”",
+   "castingTime": "5 rounds",
+   "duration": "Permanent",
+   "save": "None",
+   "aoe": "Special",
+   "description": "<p><em>Healer spell: “same as magic-user spell of same name.”</em></p><p>Apart from the differences given in the spell’s statistics, this is the same as the third level cleric spell animate dead (q.v.).</p>",
+   "source": "Healers (magic-user spell, PHB)",
+   "rolls": []
+  },
+  "folder": "Level 3"
+ },
+ {
+  "name": "Strength",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "healer",
+   "level": 3,
+   "school": "Alteration",
+   "reversible": false,
+   "components": "V, S, M",
+   "range": "Touch",
+   "castingTime": "1 turn",
+   "duration": "6 turns/level",
+   "save": "None",
+   "aoe": "Person touched",
+   "description": "<p><em>Healer spell: “same as magic-user spell of same name.”</em></p><p>Raises the character’s strength for the duration, by a number of points, or by tenths of points (percentages) for a fighter who already has 18 strength. The gain depends on class, and all limits on strength from race, sex or class still apply:</p><table class=\"book-table\"><tr><th>Class</th><th>Strength gain</th></tr><tr><td>Cleric</td><td>1-6 (d6)</td></tr><tr><td>Fighter</td><td>1-8 (d8)</td></tr><tr><td>Magic-user</td><td>1-4 (d4)</td></tr><tr><td>Thief</td><td>1-6 (d6)</td></tr><tr><td>Monk</td><td>1-4 (d4)</td></tr></table><p>A fighter (or paladin or ranger) who already has 18 strength adds 10% to 80% to his exceptional strength roll. Likewise, any gain that would take strength above 18 counts each 1 point as an extra 10% of exceptional strength.</p><p><strong>Component:</strong> a few hairs or a pinch of dung from a particularly strong animal (ape, bear, ox, etc.).</p>",
+   "source": "Healers (magic-user spell, PHB)",
+   "rolls": [
+    {
+     "label": "Strength gained",
+     "kind": "other",
+     "formula": "",
+     "save": "",
+     "each": "",
+     "fn": "",
+     "charges": 0,
+     "note": "",
+     "mode": "",
+     "x": "",
+     "choices": [
+      {
+       "label": "Cleric",
+       "formula": "1d6",
+       "rows": []
+      },
+      {
+       "label": "Fighter (paladin, ranger)",
+       "formula": "1d8",
+       "rows": []
+      },
+      {
+       "label": "Magic-user",
+       "formula": "1d4",
+       "rows": []
+      },
+      {
+       "label": "Thief",
+       "formula": "1d6",
+       "rows": []
+      },
+      {
+       "label": "Monk",
+       "formula": "1d4",
+       "rows": []
+      },
+      {
+       "label": "Fighter with 18: percentile added",
+       "formula": "1d8*10",
+       "rows": []
+      }
+     ],
+     "table": {
+      "formula": "",
+      "rows": []
+     }
+    }
+   ]
+  },
+  "folder": "Level 3"
+ },
+ {
+  "name": "Stone To Flesh",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "healer",
+   "level": 4,
+   "school": "Alteration",
+   "reversible": true,
+   "components": "V, S, M",
+   "range": "1”/level",
+   "castingTime": "6 segments",
+   "duration": "Permanent",
+   "save": "Special",
+   "aoe": "One creature",
+   "description": "<p><em>Healer spell: “same as magic-user spell of same name.”</em></p><p>Turns any kind of stone into flesh. If the stone was once a living creature, of any size, it is restored to life (along with its possessions), though it must make the usual system shock survival roll. Ordinary stone can also be turned to flesh, 9 cubic feet per level of the caster.</p><p><strong>Reverse:</strong> turns flesh of any kind to stone in the same way, along with everything the creature carries. The intended victim gets a saving throw.</p><p><strong>Components:</strong> a pinch of earth and a drop of blood; lime, water and earth for the reverse.</p>",
+   "source": "Healers (magic-user spell, PHB)",
+   "rolls": []
+  },
+  "folder": "Level 4"
+ },
+ {
+  "name": "Mind Blank",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "healer",
+   "level": 4,
+   "school": "Abjuration",
+   "reversible": false,
+   "components": "V, S",
+   "range": "3”",
+   "castingTime": "1 segment",
+   "duration": "1 day",
+   "save": "None",
+   "aoe": "One creature",
+   "description": "<p><em>Healer spell: “same as magic-user spell of same name.”</em></p><p>The recipient is completely protected from all devices and/or spells that detect, influence or read emotions and/or thoughts. This includes augury, charm, command, confusion, divination, empathy (all forms), ESP, fear, feeblemind, mass suggestion, phantasmal killer, possession, rulership, soul trapping, suggestion and telepathy. It also prevents discovery or information gathering by crystal balls or other scrying devices, clairaudience, clairvoyance, communing, contacting other planes, or wish-related methods (wishing, limited wish, alter reality). Exceedingly powerful deities could still get through.</p><p>It also protects against psionic detection and/or influence, such as domination (or mass domination), hypnosis, invisibility (the psionic kind works on the mind) and precognition, as well as the powers already covered as spells.</p>",
+   "source": "Healers (magic-user spell, PHB)",
+   "rolls": []
+  },
+  "folder": "Level 4"
+ },
+ {
+  "name": "Energy",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "healer",
+   "level": 4,
+   "school": "",
+   "reversible": false,
+   "components": "",
+   "range": "",
+   "castingTime": "",
+   "duration": "",
+   "save": "",
+   "aoe": "",
+   "description": "<p>Restores one life level to a character who has lost one to a wraith or similar happenstance.</p><p><em>The article gives only this description; the range, duration and other statistics not stated are for the DM.</em></p>",
+   "source": "Healers",
+   "rolls": []
+  },
+  "folder": "Level 4"
+ },
+ {
+  "name": "Cure Lycanthropy",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "healer",
+   "level": 4,
+   "school": "",
+   "reversible": false,
+   "components": "",
+   "range": "",
+   "castingTime": "",
+   "duration": "",
+   "save": "",
+   "aoe": "",
+   "description": "<p>Removes the disease of lycanthropy from anyone so afflicted.</p><p><em>The article gives only this description; the range, duration and other statistics not stated are for the DM.</em></p>",
+   "source": "Healers",
+   "rolls": []
+  },
+  "folder": "Level 4"
+ },
+ {
+  "name": "Awaken",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "healer",
+   "level": 4,
+   "school": "",
+   "reversible": false,
+   "components": "",
+   "range": "",
+   "castingTime": "",
+   "duration": "",
+   "save": "",
+   "aoe": "",
+   "description": "<p>Awakens anyone put to sleep through any means.</p><p><em>Called “Wake Spell” in The Dragon #3, which says “through various means”.</em></p><p><em>The article gives only this description; the range, duration and other statistics not stated are for the DM.</em></p>",
+   "source": "Healers",
+   "rolls": []
+  },
+  "folder": "Level 4"
+ },
+ {
+  "name": "Fly",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "healer",
+   "level": 4,
+   "school": "Alteration",
+   "reversible": false,
+   "components": "V, S, M",
+   "range": "Touch",
+   "castingTime": "3 segments",
+   "duration": "1 turn/level + 1-6 turns",
+   "save": "None",
+   "aoe": "Creature touched",
+   "description": "<p><em>Healer spell: “same as magic-user spell of same name.”</em></p><p>The recipient can fly, moving up, down and/or sideways at 12” per move (half that climbing, twice that diving). The caster never knows the exact duration, because the Dungeon Master secretly rolls the extra 1-6 turns.</p><p><strong>Component:</strong> a wing feather of any bird.</p>",
+   "source": "Healers (magic-user spell, PHB)",
+   "rolls": [
+    {
+     "label": "Duration (turns; the DM rolls the 1-6 secretly)",
+     "kind": "dur",
+     "formula": "@L+1d6",
+     "save": "",
+     "each": "",
+     "fn": "",
+     "charges": 0,
+     "note": "",
+     "mode": "",
+     "x": "",
+     "choices": [],
+     "table": {
+      "formula": "",
+      "rows": []
+     }
+    }
+   ]
+  },
+  "folder": "Level 4"
+ },
+ {
+  "name": "Raise Dead",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "healer",
+   "level": 5,
+   "school": "Necromantic",
+   "reversible": true,
+   "components": "V, S",
+   "range": "3”",
+   "castingTime": "1 round",
+   "duration": "Permanent",
+   "save": "Special",
+   "aoe": "One person",
+   "description": "<p><em>Healer spell: “same as cleric spell of same name.”</em></p><p>Restores life to a dwarf, gnome, half-elf, halfling or human who has been dead no longer than 1 day per level of the cleric (a 9th level cleric can raise someone dead up to 9 days).</p><ul><li>The body must be whole; missing parts stay missing.</li><li>The person must make a special saving throw to survive the ordeal (see CHARACTER ABILITIES, Constitution).</li><li>A raised person is weak and helpless and needs one full day of bed rest for each day spent dead.</li></ul><p>Newly made undead (but not skeletons) still within the days-dead limit are affected: they become resurrected dead if their constitution lets them survive, and otherwise are simply dead.</p><p><strong>Somatic component:</strong> a pointed finger.</p><p><strong>Reverse (slay living):</strong> the victim gets a saving throw; if it succeeds, the victim only takes the damage of a cause serious wounds spell, 3-17 hit points. An evil cleric can use the reverse freely. A good cleric must be extremely careful with it, being absolutely certain that the victim is evil and that the death is greatly necessary and for good; otherwise the cleric’s alignment will change sharply.</p>",
+   "source": "Healers (cleric spell, PHB)",
+   "rolls": [
+    {
+     "label": "Reverse (slay living): damage if the save is made",
+     "kind": "dmg",
+     "formula": "2d8+1",
+     "save": "",
+     "each": "",
+     "fn": "",
+     "charges": 0,
+     "note": "",
+     "mode": "",
+     "x": "",
+     "choices": [],
+     "table": {
+      "formula": "",
+      "rows": []
+     }
+    }
+   ]
+  },
+  "folder": "Level 5"
+ },
+ {
+  "name": "Cure Insanity",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "healer",
+   "level": 5,
+   "school": "",
+   "reversible": false,
+   "components": "",
+   "range": "",
+   "castingTime": "",
+   "duration": "",
+   "save": "",
+   "aoe": "",
+   "description": "<p>Cures anyone of insanity.</p><p><em>The article gives only this description; the range, duration and other statistics not stated are for the DM.</em></p>",
+   "source": "Healers",
+   "rolls": []
+  },
+  "folder": "Level 5"
+ },
+ {
+  "name": "Cure Paralysis",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "healer",
+   "level": 5,
+   "school": "",
+   "reversible": false,
+   "components": "",
+   "range": "",
+   "castingTime": "",
+   "duration": "",
+   "save": "",
+   "aoe": "",
+   "description": "<p>Cures paralysis, or negates it in any effect.</p><p><em>The article gives only this description; the range, duration and other statistics not stated are for the DM.</em></p>",
+   "source": "Healers",
+   "rolls": []
+  },
+  "folder": "Level 5"
+ },
+ {
+  "name": "Longevity",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "healer",
+   "level": 5,
+   "school": "",
+   "reversible": false,
+   "components": "",
+   "range": "",
+   "castingTime": "",
+   "duration": "",
+   "save": "",
+   "aoe": "",
+   "description": "<p>Removes 10 years from the age of the character it is cast upon. This counters the effects of aging caused by a staff of withering, a ghost attack, etc.</p><p><em>The Dragon #3: “10 game-years from the game-age”.</em></p><p><em>The article gives only this description; the range, duration and other statistics not stated are for the DM.</em></p>",
+   "source": "Healers",
+   "rolls": []
+  },
+  "folder": "Level 5"
+ },
+ {
+  "name": "Teleport",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "healer",
+   "level": 5,
+   "school": "Alteration",
+   "reversible": false,
+   "components": "V",
+   "range": "Touch",
+   "castingTime": "2 segments",
+   "duration": "Instantaneous",
+   "save": "None",
+   "aoe": "Special",
+   "description": "<p><em>Healer spell: “same as magic-user spell of same name.”</em></p><p>The caster instantly travels, along with extra weight being worn or touched, to a well known destination. Distance does not matter, but the spell cannot cross planes. The weight limit is 2,500 g.p., plus 1,500 g.p. for each level above the 10th (a 13th level magic-user can teleport up to 7,000 g.p., or 700 pounds).</p><p><strong>Accuracy</strong> depends on how well the caster knows the destination. A very familiar place (one the caster has a clear picture of from being there and studying it) is unlikely to go wrong. Lesser known places (seen only by magic or from a distance) are riskier, and unfamiliar places are quite dangerous:</p><table class=\"book-table\"><tr><th>Destination is</th><th>High</th><th>On target</th><th>Low</th></tr><tr><td>Very familiar</td><td>01-02</td><td>03-99</td><td>00</td></tr><tr><td>Studied carefully</td><td>01-04</td><td>05-98</td><td>99-00</td></tr><tr><td>Seen casually</td><td>01-08</td><td>09-96</td><td>97-00</td></tr><tr><td>Viewed once</td><td>01-16</td><td>17-92</td><td>93-00</td></tr><tr><td>Never seen</td><td>01-32</td><td>33-84</td><td>85-00</td></tr></table><p><strong>High:</strong> the caster arrives 1” above the ground for every 1% the roll is below the lowest “On Target” number: at most 2” for a very familiar place, and up to 32” for a place never seen.</p><p><strong>Low:</strong> if the area arrived in is solid, the caster dies instantly.</p><p>It is not possible to teleport into empty space; there must be a substantial surface there, such as a wooden floor, stone floor, natural ground, etc.</p>",
+   "source": "Healers (magic-user spell, PHB)",
+   "rolls": [
+    {
+     "label": "Arrival",
+     "kind": "table",
+     "formula": "",
+     "save": "",
+     "each": "",
+     "fn": "",
+     "charges": 0,
+     "note": "",
+     "mode": "",
+     "x": "",
+     "choices": [
+      {
+       "label": "Very familiar",
+       "formula": "1d100",
+       "rows": [
+        {
+         "lo": 1,
+         "hi": 2,
+         "text": "high",
+         "formula": "",
+         "kind": ""
+        },
+        {
+         "lo": 3,
+         "hi": 99,
+         "text": "on target",
+         "formula": "",
+         "kind": ""
+        },
+        {
+         "lo": 100,
+         "hi": 100,
+         "text": "low",
+         "formula": "",
+         "kind": ""
+        }
+       ]
+      },
+      {
+       "label": "Studied carefully",
+       "formula": "1d100",
+       "rows": [
+        {
+         "lo": 1,
+         "hi": 4,
+         "text": "high",
+         "formula": "",
+         "kind": ""
+        },
+        {
+         "lo": 5,
+         "hi": 98,
+         "text": "on target",
+         "formula": "",
+         "kind": ""
+        },
+        {
+         "lo": 99,
+         "hi": 100,
+         "text": "low",
+         "formula": "",
+         "kind": ""
+        }
+       ]
+      },
+      {
+       "label": "Seen casually",
+       "formula": "1d100",
+       "rows": [
+        {
+         "lo": 1,
+         "hi": 8,
+         "text": "high",
+         "formula": "",
+         "kind": ""
+        },
+        {
+         "lo": 9,
+         "hi": 96,
+         "text": "on target",
+         "formula": "",
+         "kind": ""
+        },
+        {
+         "lo": 97,
+         "hi": 100,
+         "text": "low",
+         "formula": "",
+         "kind": ""
+        }
+       ]
+      },
+      {
+       "label": "Viewed once",
+       "formula": "1d100",
+       "rows": [
+        {
+         "lo": 1,
+         "hi": 16,
+         "text": "high",
+         "formula": "",
+         "kind": ""
+        },
+        {
+         "lo": 17,
+         "hi": 92,
+         "text": "on target",
+         "formula": "",
+         "kind": ""
+        },
+        {
+         "lo": 93,
+         "hi": 100,
+         "text": "low",
+         "formula": "",
+         "kind": ""
+        }
+       ]
+      },
+      {
+       "label": "Never seen",
+       "formula": "1d100",
+       "rows": [
+        {
+         "lo": 1,
+         "hi": 32,
+         "text": "high",
+         "formula": "",
+         "kind": ""
+        },
+        {
+         "lo": 33,
+         "hi": 84,
+         "text": "on target",
+         "formula": "",
+         "kind": ""
+        },
+        {
+         "lo": 85,
+         "hi": 100,
+         "text": "low",
+         "formula": "",
+         "kind": ""
+        }
+       ]
+      }
+     ],
+     "table": {
+      "formula": "",
+      "rows": []
+     }
+    }
+   ]
+  },
+  "folder": "Level 5"
+ },
+ {
+  "name": "Size Control",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "healer",
+   "level": 5,
+   "school": "",
+   "reversible": false,
+   "components": "",
+   "range": "",
+   "castingTime": "",
+   "duration": "",
+   "save": "",
+   "aoe": "",
+   "description": "<p>Neutralizes the effect of growth and shrinking potions or similar devices.</p><p><em>The article gives only this description; the range, duration and other statistics not stated are for the DM.</em></p>",
+   "source": "Healers",
+   "rolls": []
+  },
+  "folder": "Level 5"
+ },
+ {
+  "name": "Improved Cure Serious Wounds",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "healer",
+   "level": 6,
+   "school": "",
+   "reversible": false,
+   "components": "",
+   "range": "",
+   "castingTime": "",
+   "duration": "",
+   "save": "",
+   "aoe": "",
+   "description": "<p>Cures 4d6 worth of damage, with a bonus of one point per die (8-28 points).</p><p><em>The Dragon #3 prints “8 to 24 pts.”</em></p><p><em>The article gives only this description; the range, duration and other statistics not stated are for the DM.</em></p>",
+   "source": "Healers",
+   "rolls": [
+    {
+     "label": "Healing",
+     "kind": "heal",
+     "formula": "4d6 + 4",
+     "save": "",
+     "note": "4d6, +1 per die"
+    }
+   ]
+  },
+  "folder": "Level 6"
+ },
+ {
+  "name": "Clone",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "healer",
+   "level": 6,
+   "school": "Necromantic",
+   "reversible": false,
+   "components": "V, S, M",
+   "range": "Touch",
+   "castingTime": "1 turn",
+   "duration": "Permanent",
+   "save": "None",
+   "aoe": "Special",
+   "description": "<p><em>Healer spell: “same as magic-user spell of same name.”</em></p><p>Creates a duplicate of a person, identical in every way, including level of experience, memories, etc. Grown from a small piece of the person’s flesh (the material component), the clone takes 2-8 months to grow. It is the person as he or she was when the flesh was taken, and knows nothing of anything learned or experienced afterwards. It is a physical duplicate only; the original’s possessions are another matter entirely.</p><p><strong>Two of the same:</strong> because the duplicate really is the person, once both exist each knows of the other, and each wants to destroy the other, since such an alter ego is unbearable to both. If one cannot destroy the other within 1 week of the dual existence beginning, then either (95%) one goes insane and destroys itself (75% likely to be the clone), or (5%) both go mad and commit suicide.</p>",
+   "source": "Healers (magic-user spell, PHB)",
+   "rolls": [
+    {
+     "label": "Growth (months)",
+     "kind": "dur",
+     "formula": "2d4",
+     "save": "",
+     "each": "",
+     "fn": "",
+     "charges": 0,
+     "note": "",
+     "mode": "",
+     "x": "",
+     "choices": [],
+     "table": {
+      "formula": "",
+      "rows": []
+     }
+    }
+   ]
+  },
+  "folder": "Level 6"
+ },
+ {
+  "name": "Water Breathing",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "healer",
+   "level": 6,
+   "school": "Alteration",
+   "reversible": true,
+   "components": "V, S, M",
+   "range": "Touch",
+   "castingTime": "3 segments",
+   "duration": "3 turns/level",
+   "save": "None",
+   "aoe": "Creature touched",
+   "description": "<p><em>Healer spell: “same as magic-user spell of same name.”</em></p><p>Apart from the differences given in the spell’s statistics, and the material component (a short reed or piece of straw), this is the same as the third level druid spell water breathing (q.v.).</p>",
+   "source": "Healers (magic-user spell, PHB)",
+   "rolls": []
+  },
+  "folder": "Level 6"
+ },
+ {
+  "name": "Speak With Plants",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "healer",
+   "level": 6,
+   "school": "Alteration",
+   "reversible": false,
+   "components": "V, S, M",
+   "range": "0",
+   "castingTime": "1 turn",
+   "duration": "1 round/level",
+   "save": "None",
+   "aoe": "6” diameter circle",
+   "description": "<p><em>Healer spell: “same as cleric spell of same name.”</em></p><p>The cleric can talk, in very basic terms, with all kinds of living plants. For example, the cleric can ask plants whether creatures have passed through them, make thickets part for easy passage, have vines entangle pursuers, and the like. All plants in the area of effect are under the spell’s command, but it cannot make rooted plants walk. Lasts 1 melee round per level of the cleric.</p><p><strong>Components:</strong> a drop of water, a pinch of dung and a flame.</p>",
+   "source": "Healers (cleric spell, PHB)",
+   "rolls": []
+  },
+  "folder": "Level 6"
+ },
+ {
+  "name": "Speak With Animals",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "healer",
+   "level": 6,
+   "school": "Alteration",
+   "reversible": false,
+   "components": "V, S",
+   "range": "0",
+   "castingTime": "5 segments",
+   "duration": "2 rounds/level",
+   "save": "None",
+   "aoe": "One animal within 3” radius of cleric",
+   "description": "<p><em>Healer spell: “same as cleric spell of same name.”</em></p><p>The cleric can understand and talk with any warm or cold-blooded animal that is not mindless (an amoeba, for instance, is mindless). The cleric can ask questions, get answers, and generally be on friendly terms with the animal. Lasts 2 melee rounds per level of the cleric.</p><p>Even if the animal’s bent is opposite to the cleric’s (evil/good or good/evil), it and others of its kind with it will not attack while the spell lasts. If the animal is neutral or shares the cleric’s general bent (evil/evil, good/good), it and its companions may do the cleric a favor or service; the referee decides using a special reaction chart, based mainly on the cleric’s charisma and actions.</p><p>Unlike speak with monsters (q.v.), this spell only allows conversation with basically normal, non-fantastic creatures such as apes, bears, cats, dogs, elephants and so on.</p>",
+   "source": "Healers (cleric spell, PHB)",
+   "rolls": []
+  },
+  "folder": "Level 6"
+ },
+ {
+  "name": "Speak With Monsters",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "healer",
+   "level": 6,
+   "school": "Alteration",
+   "reversible": false,
+   "components": "V, S",
+   "range": "3” radius",
+   "castingTime": "9 segments",
+   "duration": "1 round/level",
+   "save": "None",
+   "aoe": "",
+   "description": "<p><em>Healer spell: “same as cleric spell of same name.”</em></p><p>The cleric can talk with any type of creature that has any form of communication; the monster understands the intent of what the cleric says. The referee checks the creatures’ reaction. All creatures of the chosen type within range can understand. The spell lasts 1 melee round per level of the cleric, and the monsters converse as far as they are able and willing.</p>",
+   "source": "Healers (cleric spell, PHB)",
+   "rolls": []
+  },
+  "folder": "Level 6"
+ },
+ {
+  "name": "Sterilize",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "healer",
+   "level": 7,
+   "school": "",
+   "reversible": false,
+   "components": "",
+   "range": "",
+   "castingTime": "",
+   "duration": "",
+   "save": "",
+   "aoe": "",
+   "description": "<p>Cleanses any room of any infection, or rids an area of mold, slime, or other nasty creatures of up to 5 hit dice.</p><p><em>The Dragon #3: “any room of any infection, mold, slime, or nasty creatures, up to 5 hit die”.</em></p><p><em>The article gives only this description; the range, duration and other statistics not stated are for the DM.</em></p>",
+   "source": "Healers",
+   "rolls": []
+  },
+  "folder": "Level 7"
+ },
+ {
+  "name": "Neutralize Gas",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "healer",
+   "level": 7,
+   "school": "",
+   "reversible": false,
+   "components": "",
+   "range": "",
+   "castingTime": "",
+   "duration": "",
+   "save": "",
+   "aoe": "",
+   "description": "<p>Neutralizes the adverse effects of poisonous or harmful gases.</p><p><em>The Dragon #3: “poisonous gases, tear or any other gases”.</em></p><p><em>The article gives only this description; the range, duration and other statistics not stated are for the DM.</em></p>",
+   "source": "Healers",
+   "rolls": []
+  },
+  "folder": "Level 7"
+ },
+ {
+  "name": "Blade Barrier",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "healer",
+   "level": 7,
+   "school": "Evocation",
+   "reversible": false,
+   "components": "V, S",
+   "range": "3”",
+   "castingTime": "9 segments",
+   "duration": "3 rounds/level",
+   "save": "None",
+   "aoe": "Special",
+   "description": "<p><em>Healer spell: “same as cleric spell of same name.”</em></p><p>Creates a wall of razor-sharp blades whirling endlessly around a fixed point. Any creature trying to pass through it takes 8-64 (8d8) hit points of damage. The barrier lasts 3 melee rounds per level of the cleric, and can cover any area from 5’ square up to 2” square (20’ × 20’ underground, 60’ × 60’ outdoors).</p>",
+   "source": "Healers (cleric spell, PHB)",
+   "rolls": [
+    {
+     "label": "Damage passing through",
+     "kind": "dmg",
+     "formula": "8d8",
+     "save": "",
+     "each": "",
+     "fn": "",
+     "charges": 0,
+     "note": "",
+     "mode": "",
+     "x": "",
+     "choices": [],
+     "table": {
+      "formula": "",
+      "rows": []
+     }
+    }
+   ]
+  },
+  "folder": "Level 7"
+ },
+ {
+  "name": "Remove Curse",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "healer",
+   "level": 7,
+   "school": "Abjuration",
+   "reversible": true,
+   "components": "V, S",
+   "range": "Touch",
+   "castingTime": "4 segments",
+   "duration": "Permanent",
+   "save": "Special",
+   "aoe": "Special",
+   "description": "<p><em>Healer spell: “same as magic-user spell of same name.”</em></p><p>Apart from the differences given in the spell’s statistics, this is the same as the third level cleric spell remove curse (q.v.).</p>",
+   "source": "Healers (magic-user spell, PHB)",
+   "rolls": []
+  },
+  "folder": "Level 7"
+ },
+ {
+  "name": "Remove Charm",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "healer",
+   "level": 7,
+   "school": "",
+   "reversible": false,
+   "components": "",
+   "range": "3”",
+   "castingTime": "",
+   "duration": "",
+   "save": "",
+   "aoe": "",
+   "description": "<p>Removes or negates a charm placed upon a character.</p><p><em>The article gives only this description; the range, duration and other statistics not stated are for the DM.</em></p>",
+   "source": "Healers",
+   "rolls": []
+  },
+  "folder": "Level 7"
+ },
+ {
+  "name": "Cure Deafness",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "healer",
+   "level": 7,
+   "school": "",
+   "reversible": false,
+   "components": "",
+   "range": "",
+   "castingTime": "",
+   "duration": "",
+   "save": "",
+   "aoe": "",
+   "description": "<p>Cures deafness from any cause.</p><p><em>The article gives only this description; the range, duration and other statistics not stated are for the DM.</em></p>",
+   "source": "Healers",
+   "rolls": []
+  },
+  "folder": "Level 7"
+ }
+]
